@@ -18,3 +18,10 @@ h1 {
     pointer-events: none;
     z-index: 1000;
 }
+
+p {
+    color: #9E714A;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+  }
