@@ -30,13 +30,17 @@ h1 {
 nav {
     float: left;
     width: 15%;
-    background: #ccc;
+    /* background: #ccc; */
+    background-color: rgba(40, 2, 4, 0.55);
     padding: 20px;
   }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 5px;
+}
+ul li {
+    margin-bottom: 5px;
 }
 
 article {
@@ -90,6 +94,10 @@ footer {
     z-index: 1000;
 }
 
+#info {
+    font-size: 12px;
+}
+
 /* section {
     background-color: blueviolet;
     font-size: 20px;
@@ -99,6 +107,21 @@ footer {
     background-color: cadetblue;
 }
  */
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
  
 /* Responsive layout - makes the two columns/boxes stack 
 on top of each other instead of next to each other, on small screens */
