@@ -52,6 +52,22 @@ article {
     color: #EBDFCE;
 }
 
+ #hp-text {
+  margin: 50px 300px 10px 300px;
+} 
+
+button {
+  padding: 15px;
+  margin: 20px;
+  width: 180px;
+  font-size: large;
+  background-color: #7B001A;
+  border-width: thick;
+}
+button:hover {
+  background-color: #41665B;
+}
+
 /* Clear floats after the columns */
 section::after {
     content: "";
